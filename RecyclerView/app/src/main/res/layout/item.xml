@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/border"
+    android:orientation="vertical">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Понедельник"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView1Row1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Понедельник"
+            android:background="@drawable/border"
+            android:textAppearance="?android:attr/textAppearanceLarge"></TextView>
+    </TableRow>
+
+    <TableLayout
+        android:id="@+id/Table_Raspis"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow1">
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border">
+
+            <TextView
+                android:id="@+id/textView1Row2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Пара"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+
+            <TextView
+                android:id="@+id/textView2Row2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:text="Предмет"
+                android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+
+            <TextView
+                android:id="@+id/textView3Row2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:text="Преподаватель"
+                android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border">
+
+            <TextView
+                android:id="@+id/textView1Row3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:text="1"
+                android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+
+            <TextView
+                android:id="@+id/textView2ow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:padding="5dp"
+                android:text="-"
+                android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+
+            <TextView
+                android:id="@+id/textView3Row3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:text="-"
+                android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border">
+
+            <TextView
+                android:id="@+id/textView1Row4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:text="2"
+                android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+
+            <TextView
+                android:id="@+id/textView2ow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:padding="5dp"
+                android:text="Разработка программных\nмодулей"
+                android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+
+            <TextView
+                android:id="@+id/textView3Row4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:text="А.А.Шимбирёв"
+                android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border">
+
+            <TextView
+                android:id="@+id/textView1Row5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:text="3"
+                android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+
+            <TextView
+                android:id="@+id/textView2ow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:padding="5dp"
+                android:text="Технология разработки и защиты\nбаз данных"
+                android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+
+            <TextView
+                android:id="@+id/textView3Row5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:text="А.Д.Горбунов"
+                android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border">
+
+            <TextView
+                android:id="@+id/textView1Row6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:text="4"
+                android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+
+            <TextView
+                android:id="@+id/textView2ow6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:padding="5dp"
+                android:text="Разработка программных\nмодулей\n\nТехнология разработки\nпрограммного обеспечения"
+                android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+
+            <TextView
+                android:id="@+id/textView3Row6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:text="А.Ю.Бушин\n\n\nЛ.А.Соколова"
+                android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border">
+
+            <TextView
+                android:id="@+id/textView1Row7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:text="5"
+                android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+
+            <TextView
+                android:id="@+id/textView2ow7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:padding="5dp"
+                android:text="Разработка мобильных\nприложений"
+                android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+
+            <TextView
+                android:id="@+id/textView3Row7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:text="А.О.Лясников"
+                android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+        </TableRow>
+
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
